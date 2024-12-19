@@ -1,0 +1,23 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "46SCMH3M92.com.biolini.bioflix"],
+             "components": [
+               {
+                  "#": "no_universal_links",
+                  "exclude": true,
+                  "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+               },
+               {
+                  "/": "/oauth/*",
+                  "comment": "Matches any URL with a path that starts with /oauth/."
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "46SCMH3M92.com.biolini.bioflix" ]
+   }
+}
