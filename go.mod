@@ -1,4 +1,4 @@
-module test-universal-link
+module orthomechanik-support-beta
 
 go 1.21.1
 
